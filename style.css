@@ -1,0 +1,28 @@
+.heading{
+    width: 100%;
+    text-align:left;
+}
+#instruct{
+    border-color: orange;
+    float: right;
+}
+#Start{
+border-color: darkblue;
+border-style:dashed;
+}
+.heading h3{
+    display:inline;
+}
+.copy_right_footer{
+  position:fixed;
+  color:aquamarine;
+  bottom:0;
+  width: 100%;
+  background-color: black;
+  line-height:3;
+  text-align:center;
+}
+#AAA{
+bottom: -10;
+text-align: center;
+}
