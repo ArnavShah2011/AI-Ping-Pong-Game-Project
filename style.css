@@ -1,28 +1,41 @@
-.heading{
-    width: 100%;
-    text-align:left;
-}
-#instruct{
-    border-color: orange;
-    float: right;
-}
-#Start{
-border-color: darkblue;
-border-style:dashed;
+
+.heading
+{
+width: 100%;
+text-align: left;
 }
 .heading h3{
-    display:inline;
+    display: inline;
 }
-.copy_right_footer{
-  position:fixed;
-  color:aquamarine;
-  bottom:0;
-  width: 100%;
-  background-color: black;
-  line-height:3;
-  text-align:center;
+
+.heading button{
+    float: right;
+    border: 1px solid orange;
 }
-#AAA{
-bottom: -10;
-text-align: center;
+
+#start ,#status, #restart
+{
+font-size: 22px;
 }
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color: black;
+   color:gold;
+   line-height: 2;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
